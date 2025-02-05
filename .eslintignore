@@ -1,0 +1,13 @@
+.vscode
+**/vendor/*.js
+*.mjs
+build
+coverage
+dist
+node_modules
+package
+reports
+commitlint.config.js
+playwright.config.js
+/playwright-report/
+CustomReporter.ts
