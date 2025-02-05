@@ -29,7 +29,7 @@ export default defineConfig({
     },
   ],
   use: {
-    baseURL: process.env.BASE_URL || 'https://dev.elsie-intranet.fr/',
+    baseURL: process.env.BASE_URL,
     trace: 'retain-on-failure',
     viewport: { width: 1280, height: process.env.ENABLE_SCREENSHOT === 'true' ? 3000 : 800 },
   },
